@@ -1,0 +1,5 @@
+TMC2Version:			18.0HM
+QPNum:				5
+Frames:				32
+InputFile:				Anchor_soldier_C2AI.txt
+OutputFile:				Anchor_soldier_C2AI.csv
