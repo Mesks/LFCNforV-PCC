@@ -1,12 +1,9 @@
 # Lightweight fully connected network-based fast CU size decision for video-based point cloud compression
 This is the official repository of source codes and deployment methods for the paper "Lightweight fully connected network-based fast CU size decision for video-based point cloud compression". In order to reduce its meaning and express it uniformly, the following takes "LFCNforV-PCC" as the root directory, for example, the location of "mpeg-pcc-tmc2-netTest" is "/mpeg-pcc-tmc2-netTest"
 
-<b>First, unzip "pointCloudCompress_testSequence.zip" to the same location as the two empty folders in order to ensure that the batch files run properly.</b>
-
 <b>If you have contacted TMC2 and HM, you can skip subsequent lengthy instructions and directly use the source under “/mpeg-pcc-tmc2-netTest/dependencies/HM-16.20+SCM-8.8/source” to change the source of original dependencies of TMC2 and check the methods described in our paper. If you are not familiar with the package structure of TMC2, it is strongly recommended that you configure it as described below.</b>
 
-<b>Or if you just want to run the program to verify the experimental data in the paper, you can run "/__batchProcessing/_BP_1.bat" and "/__batchProcessing/_BP_2.bat" directly after configuring the input point cloud file correctly. In order to properly configure the input point cloud, you need to place the five point cloud sequences provided by MPEG under "/pointCloudCompress_testSequence", and under each sequence's Ply subfolder, place a subfolder named sequencename+_n, For example, the full path of the normal file of the first frame of the soldier sequence is "/pointCloudCompress_testSequence/soldier/soldier_n/soldier_vox10_0536_n.ply"</b>
-
+<b>Or if you just want to run the program to verify the experimental data in the paper, firstly, unzip "pointCloudCompress_testSequence.zip" to the same location as the two empty folders in order to ensure that the batch files run properly, and then you can run "/__batchProcessing/_BP_1.bat" and "/__batchProcessing/_BP_2.bat" directly after configuring the input point cloud file correctly. In order to properly configure the input point cloud, you need to place the five point cloud sequences provided by MPEG under "/pointCloudCompress_testSequence", and under each sequence's Ply subfolder, place a subfolder named sequencename+_n, For example, the full path of the normal file of the first frame of the soldier sequence is "/pointCloudCompress_testSequence/soldier/soldier_n/soldier_vox10_0536_n.ply"</b>
 
 ## <b>Resource Link
 The program versions used in the experiment are as follows (You can get their official versions through the link after quotation marks): 
@@ -16,7 +13,7 @@ The program versions used in the experiment are as follows (You can get their of
 3. MPEG test sequence: https://mpeg-pcc.org/index.php/pcc-content-database/
 
 ## <b>Content Introduction
-In order to reduce the size of GitHub uploaded files, only some key files are uploaded. If necessary, please download the official version in the above link and replace it with the files provided by this repository. A brief introduction to the content provided is listed below:  
+<b>In order to reduce the size of GitHub uploaded files, only some key files are uploaded. And first, unzip "pointCloudCompress_testSequence.zip" to the same location as the two empty folders in order to ensure that the batch files run properly.</b> A brief introduction to the content provided is listed below:  
 
 - __batchProcessing: Store batch files of .sh and .bat, which you can run after configuring the input point cloud to check the experimental data in the paper or configure your own caller using this as a reference.
 
