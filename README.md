@@ -25,7 +25,7 @@ The program versions used in the experiment are as follows (You can get their of
 
 - LFCN_training: Store the content related to neural network training, including datasets, trained models and history and python files used for training. We provide two versions: py and ipy.
 
-- mpeg-pcc-tmc2-featuresExtracting, mpeg-pcc-tmc2-netTest and mpeg-pcc-tmc2-Xiong: They are the TMC2 program for data extraction, the TMC2 program for neural network testing, and the control experiment Xiong et al.'s algorithm reproduced on TMC2_v18.0. You can directly replace the source file with the source file that HM depends on under dependencies and generate and view it (We did not upload the complete TMC2 program for the sake of reducing the upload volume). <u>In the source file we provide, you can locate the section we have changed by searching for "MesksCode".</u>
+- mpeg-pcc-tmc2-featuresExtracting, mpeg-pcc-tmc2-netTest and mpeg-pcc-tmc2-Xiong: They are the TMC2 program for data extraction, the TMC2 program for neural network testing, and the control experiment Xiong et al.'s algorithm reproduced on TMC2_v18.0. You can directly replace the source file with the source file that HM depends on under dependencies and generate and view it (We did not upload the complete TMC2 program for the sake of reducing the upload volume). <b>In the source file we provide, you can locate the section we have changed by searching for "MesksCode".</b>
 
 - pointCloudCompress_testSequence: If you need to run our batch file directly, you must store the five decompressed sequence files and the corresponding normal files in this folder, otherwise you may not be able to verify the experimental data in the paper.
 
