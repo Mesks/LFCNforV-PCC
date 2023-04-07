@@ -1,0 +1,2 @@
+D:/00Workbench/LFCN_TMC2_v18.0/__output/MLPnoCBFOM_03_06/queen1_C2AI/r1/S22C2AIR01_F1_GOF0_attribute_rec_1280x1408_8bit_p444.rgb D:/00Workbench/LFCN_TMC2_v18.0/__output/MLPnoCBFOM_03_06/queen1_C2AI/r1/S22C2AIR01_F1_GOF0_attribute_rec_1280x1408_10bit_p420.yuv 2 0.299000 
+D:/00Workbench/LFCN_TMC2_v18.0/__output/MLPnoCBFOM_03_06/queen1_C2AI/r1/S22C2AIR01_F1_GOF0_attribute_rec_1280x1408_8bit_p420.yuv D:/00Workbench/LFCN_TMC2_v18.0/__output/MLPnoCBFOM_03_06/queen1_C2AI/r1/S22C2AIR01_F1_GOF0_attribute_rec_1280x1408_10bit_p444.yuv 2 0.235000 

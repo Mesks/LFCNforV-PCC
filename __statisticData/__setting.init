@@ -1,0 +1,5 @@
+TMC2Version:			18.0HM
+QPNum:				5
+Frames:				32
+InputFile:				LFCN_onlyP_soldier32_C2AI.txt
+OutputFile:				LFCN_onlyP_soldier32_C2AI.csv
