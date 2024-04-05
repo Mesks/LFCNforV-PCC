@@ -33,6 +33,3 @@ The program versions used in the experiment are as follows (You can get their of
 You can download the official test sequences provided by MPEG in the 3 resources mentioned above, but for some reasons, they no longer provide the complete sequence of loot, queen, redandblack, solder, and longdress described in the paper, but basketball_player is still provided. If needed you can still download the sequences mentioned in the paper here: http://plenodb.jpeg.org/pc/8ilabs/
 
 Please decompress the obtained test sequence to the "/pointCloudCompress_testSequence" path. For example, for the input point cloud file of the first frame of the soldier sequence, it should be found by "/pointCloudCompress_testSequence/soldier/Ply/soldier_vox10_0536.ply", and the corresponding The normal file should be able to be found via "pointCloudCompress_testSequence/soldier/soldier_n/soldier_vox10_0536_n.ply". If you are using the normal calculated by MeshLab based on the input file, although it can be run, the compressed PSNR may be different from the PSNR recorded in the official test file, and may not be consistent with our experimental results.
-
-## <b>Note
-GitHub may be identifies directory configuration files under "dependencies" as projects, so the web page cannot be opened. We recommend downloading zip to view the content.
